@@ -15,6 +15,8 @@ End-to-end **ELT analytics pipeline** for Netflix & MovieLens data. Built with *
 
 ## 🏗️ Architecture
 
+![Architecture Overview](Architecture_Diagram.png)
+
 ```
 Netflix CSV / MovieLens  ──►  Amazon S3  ──►  Snowflake (Raw)  ──►  dbt  ──►  BI Tools
                                                                    Staging
